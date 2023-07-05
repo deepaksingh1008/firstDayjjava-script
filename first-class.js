@@ -69,11 +69,27 @@
 
 //console.log(Object)
 
+//in javascript with create object by using fuction
+
+// const date = new Date();
+// console.log(date.getHours());
+// console.log(date.getMinutes());
+// console.log(date.getSeconds());
 
 
+//******************************************** * Function ******************************/
+/*
+by default function return undefined
 
+ function hoiesting -: yai function ko top pe pahucha deta hai
+*/
 
+console.log(dis());  //this is hoeisting
 
+function dis(){
+    console.log('hello world');
+    return 100;
+}
 
 
 
